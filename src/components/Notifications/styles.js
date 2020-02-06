@@ -28,6 +28,7 @@ export const Badge = styled.button`
 `;
 
 export const NotificationList = styled.div`
+  z-index: 99;
   position: absolute;
   width: 260px;
   left: calc(50% - 130px);
